@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Bucket List</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Personal Bucket List</h1>
+        </header>
+        <section>
+            <h2>Things I’ve Achieved</h2>
+            <ul class="bucket-list">
+                <li><span class="icon">✔️</span> Reached highest peak of maharashtra</li>
+                <li><span class="icon">✔️</span> Learned to Swim</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Things I’m Working On</h2>
+            <ul class="bucket-list">
+                <li><span class="icon">⏳</span> Travelling Rajasthan </li>
+                <li><span class="icon">⏳</span> Learning how to code</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Future Goals</h2>
+            <ul class="bucket-list">
+                <li><span class="icon">🌟</span> Skydiving</li>
+                <li><span class="icon">🌟</span> Visiting Iceland</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

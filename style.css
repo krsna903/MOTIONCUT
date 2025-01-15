@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #011425;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center; /* Center text horizontally */
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: #018cb3;
+    border-radius: 12px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+}
+
+/* Header */
+header h1 {
+    font-family: 'Arial Black', sans-serif;
+    color: #dcdcde;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Section Titles */
+section h2 {
+    color: #db7807;
+    font-size: 1.8rem;
+    margin: 20px 0 10px;
+}
+
+/* Bucket List */
+.bucket-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.bucket-list li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    background: #e9f4ff;
+    border-left: 4px solid #0077cc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s;
+    justify-content: center; /* Center the text within the list item */
+}
+
+.bucket-list li:hover {
+    transform: translateY(-5px);
+    background: #d3e9ff;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #0077cc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    .bucket-list li {
+        font-size: 1rem;
+    }
+}
